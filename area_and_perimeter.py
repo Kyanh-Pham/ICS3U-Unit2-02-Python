@@ -12,13 +12,16 @@ def main():
     # input
     length = int(input("Enter length of the rectangle (mm): "))
     width = int(input("Enter width of the rectangle (mm): "))
+
     # process
     area = length * width
     perimeter = 2 * (length + width)
+
     # output
     print("")
     print("Area is {0} mm2.".format(area))
     print("Perimeter is {0} mm.".format(perimeter))
+
     print("\nDone.")
 
 
